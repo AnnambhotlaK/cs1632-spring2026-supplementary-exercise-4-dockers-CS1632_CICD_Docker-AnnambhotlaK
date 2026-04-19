@@ -34,7 +34,7 @@ jobs:
         run: docker compose up -d
     
       - name: Wait for Web Server
-        run: C:\Users\14846\Desktop\University\3_Spring_2026\CS1632\Exercises\cs1632-spring2026-supplementary-exercise-4-dockers-CS1632_CICD_Docker-AnnambhotlaK\.github\scripts\wait-for-webserver.sh
+        run: C:/Users/14846/Desktop/University/3_Spring_2026/CS1632/Exercises/cs1632-spring2026-supplementary-exercise-4-dockers-CS1632_CICD_Docker-AnnambhotlaK/.github/scripts/wait-for-webserver.sh
 
       - name: Run Playwright Tests
         run: npx playwright test --project=chromium
